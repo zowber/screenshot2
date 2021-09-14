@@ -2,17 +2,17 @@
 
 Basic script for capturing multiple full page screenshots at a given viewport width.
 
-##Requirements
+## Requirements
 
 NodeJS.
 
-##Set-up
+## Set-up
 
 npm i
 
-##Usage
+## Usage
 
-###List URLs you want to screenshot in screens.mjs...
+### List URLs you want to screenshot in screens.mjs...
 
 export default
 [
@@ -26,11 +26,11 @@ export default
   }
 ]
 
-###Edit script to define viewport width...
+### Edit script to define viewport width...
 
 Pass pixel width into the call to screenshot function. E.g., screenshot(1920) 
 
-###Run script...
+### Run script...
 
 node screenshot2.mjs
 
